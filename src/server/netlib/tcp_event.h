@@ -22,7 +22,7 @@ namespace netlib {
 class IoWatcher;
 
 // one tcp connection
-class TcpEvent : NonCopyableMovable,
+class TcpEvent : util::NonCopyableMovable,
                  public std::enable_shared_from_this<TcpEvent> {
  public:
   //  using TcpEventPrt = std::shared_ptr<TcpEvent>;

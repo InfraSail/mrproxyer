@@ -10,14 +10,14 @@
 #ifndef MRPROXYER_SRC_NETLIB_IOWATCHER_H_
 #define MRPROXYER_SRC_NETLIB_IOWATCHER_H_
 
+#include "../util/non_copyable_movable.h"
 #include "netlib.h"
-#include "non_copyable_movable.h"
 #include "timepoint.h"
 
 namespace netlib {
 
 class IoEvent;
-class IoWatcher : NonCopyableMovable {
+class IoWatcher : util::NonCopyableMovable {
  public:
   virtual ~IoWatcher() = default;
   // call poll

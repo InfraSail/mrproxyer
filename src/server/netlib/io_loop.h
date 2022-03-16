@@ -19,7 +19,7 @@
 
 namespace netlib {
 
-class IoLoop : public NonCopyableMovable {
+class IoLoop : public util::NonCopyableMovable {
  public:
   using TimerTask = std::function<void()>;
   IoLoop();

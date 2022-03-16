@@ -11,7 +11,7 @@
 #ifndef MRPROXYER_SRC_NETLIB_NON_COPYABLE_MOVABLE_H_
 #define MRPROXYER_SRC_NETLIB_NON_COPYABLE_MOVABLE_H_
 
-namespace netlib {
+namespace util {
 
 /**
  * @brief "Copy" semantics and "Move" semantics of the class that inherits
@@ -29,6 +29,6 @@ class NonCopyableMovable {
   NonCopyableMovable(NonCopyableMovable&&) = delete;
 };
 
-}  // namespace netlib
+}  // namespace util
 
 #endif  // !MRPROXYER_SRC_NETLIB_NON_COPYABLE_MOVABLE_H_

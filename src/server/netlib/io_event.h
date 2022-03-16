@@ -10,13 +10,13 @@
 #ifndef MRPROXYER_SRC_NETLIB_IO_EVENT_H_
 #define MRPROXYER_SRC_NETLIB_IO_EVENT_H_
 
+#include "../util/non_copyable_movable.h"
 #include "io_watcher.h"
 #include "netlib.h"
-#include "non_copyable_movable.h"
 
 namespace netlib {
 
-class IoEvent : NonCopyableMovable {
+class IoEvent : util::NonCopyableMovable {
  public:
   IoEvent(IoWatcher* io_watcher, int fd);
 

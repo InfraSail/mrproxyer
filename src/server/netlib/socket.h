@@ -10,12 +10,12 @@
 #ifndef MRPROXYER_SRC_NETLIB_SOCKET_H_
 #define MRPROXYER_SRC_NETLIB_SOCKET_H_
 
+#include "../util/non_copyable_movable.h"
 #include "net_address.h"
-#include "non_copyable_movable.h"
 // socket and it's ops
 
 namespace netlib {
-class Socket : NonCopyableMovable {
+class Socket : util::NonCopyableMovable {
  public:
   Socket() = default;
   Socket(int domain, int type, int protocol);

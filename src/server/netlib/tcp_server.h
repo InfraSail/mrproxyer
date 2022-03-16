@@ -10,16 +10,16 @@
 #ifndef MRPROXYER_SRC_NETLIB_TCPSERVER_H_
 #define MRPROXYER_SRC_NETLIB_TCPSERVER_H_
 
+#include "../util/non_copyable_movable.h"
 #include "acceptor.h"
 #include "io_watcher.h"
 #include "log.h"
 #include "netlib.h"
-#include "non_copyable_movable.h"
 #include "tcp_event.h"
 
 // manage tcpevent
 namespace netlib {
-class TcpServer : NonCopyableMovable {
+class TcpServer : util::NonCopyableMovable {
  public:
   TcpServer(IoWatcher* io_watcher, NetAddress& bind_address);
   ~TcpServer();
