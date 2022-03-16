@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_IOWATCHER_H_
-#define MRPROXYER_SRC_NETLIB_IOWATCHER_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_IOWATCHER_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_IOWATCHER_H_
 
 #include "../util/non_copyable_movable.h"
 #include "netlib.h"
@@ -34,4 +34,4 @@ class IoWatcher : util::NonCopyableMovable {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_IOWATCHER_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_IOWATCHER_H_

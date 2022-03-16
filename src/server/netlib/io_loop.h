@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_IO_LOOP_H_
-#define MRPROXYER_SRC_NETLIB_IO_LOOP_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_
 
 #include "io_event.h"
 #include "io_watcher.h"
@@ -46,4 +46,4 @@ class IoLoop : public util::NonCopyableMovable {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_IO_LOOP_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_

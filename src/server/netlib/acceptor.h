@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_ACCEPTOR_H_
-#define MRPROXYER_SRC_NETLIB_ACCEPTOR_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_ACCEPTOR_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_ACCEPTOR_H_
 
 #include "../util/non_copyable_movable.h"
 #include "io_event.h"
@@ -41,4 +41,4 @@ class Acceptor : util::NonCopyableMovable {
   OnAcceptCallback on_accept_;
 };
 }  // namespace netlib
-#endif  // MRPROXYER_SRC_NETLIB_ACCEPTOR_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_ACCEPTOR_H_

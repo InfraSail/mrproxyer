@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_POLL_H_
-#define MRPROXYER_SRC_NETLIB_POLL_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_POLL_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_POLL_H_
 
 #include "../util/non_copyable_movable.h"
 #include "io_watcher.h"
@@ -34,4 +34,4 @@ class Poll : public IoWatcher {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_POLL_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_POLL_H_

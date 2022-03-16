@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_PLATFORM_H_
-#define MRPROXYER_SRC_NETLIB_PLATFORM_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_PLATFORM_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_PLATFORM_H_
 
 // modified from https://github.com/ithewei/libhv/blob/master/base/hplatform.h
 //  OS
@@ -114,4 +114,4 @@
 #include <pthread.h>
 #endif
 
-#endif  // MRPROXYER_SRC_NETLIB_PLATFORM_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_PLATFORM_H_

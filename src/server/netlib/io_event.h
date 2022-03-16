@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_IO_EVENT_H_
-#define MRPROXYER_SRC_NETLIB_IO_EVENT_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_IO_EVENT_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_IO_EVENT_H_
 
 #include "../util/non_copyable_movable.h"
 #include "io_watcher.h"
@@ -84,4 +84,4 @@ class IoEvent : util::NonCopyableMovable {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_IO_EVENT_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_IO_EVENT_H_

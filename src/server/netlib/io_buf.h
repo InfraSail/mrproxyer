@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_IO_BUF_H_
-#define MRPROXYER_SRC_NETLIB_IO_BUF_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_IO_BUF_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_IO_BUF_H_
 
 // prependable = readIndex
 // readable = writeIndex - readIndex
@@ -49,4 +49,4 @@ class IoBuf {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_IO_BUF_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_IO_BUF_H_

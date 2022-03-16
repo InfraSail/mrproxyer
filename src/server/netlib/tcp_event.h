@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_TCPEVENT_H_
-#define MRPROXYER_SRC_NETLIB_TCPEVENT_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
 
 #include "io_buf.h"
 #include "io_event.h"
@@ -85,4 +85,4 @@ class TcpEvent : util::NonCopyableMovable,
 };
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_TCPEVENT_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_

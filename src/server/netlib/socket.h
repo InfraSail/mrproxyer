@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_SOCKET_H_
-#define MRPROXYER_SRC_NETLIB_SOCKET_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_SOCKET_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_SOCKET_H_
 
 #include "../util/non_copyable_movable.h"
 #include "net_address.h"
@@ -46,4 +46,4 @@ class Socket : util::NonCopyableMovable {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_SOCKET_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_SOCKET_H_
