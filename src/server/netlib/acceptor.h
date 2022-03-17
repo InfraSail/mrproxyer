@@ -10,9 +10,9 @@
 #ifndef MRPROXYER_SRC_SERVER_NETLIB_ACCEPTOR_H_
 #define MRPROXYER_SRC_SERVER_NETLIB_ACCEPTOR_H_
 
+#include "../util/log.h"
 #include "../util/non_copyable_movable.h"
 #include "io_event.h"
-#include "log.h"
 #include "net_address.h"
 #include "netlib.h"
 #include "socket.h"

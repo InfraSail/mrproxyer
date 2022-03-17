@@ -10,9 +10,9 @@
 #ifndef MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
 #define MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
 
+#include "../util/../util/log.h"
 #include "io_buf.h"
 #include "io_event.h"
-#include "log.h"
 #include "net_address.h"
 #include "netlib.h"
 #include "socket.h"

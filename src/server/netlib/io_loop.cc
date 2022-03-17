@@ -9,7 +9,7 @@
 
 #include "io_loop.h"
 
-#include "log.h"
+#include "../util/log.h"
 
 using namespace netlib;
 
