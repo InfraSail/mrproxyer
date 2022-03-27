@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_NET_ADDRESS_H_
-#define MRPROXYER_SRC_NETLIB_NET_ADDRESS_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_NET_ADDRESS_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_NET_ADDRESS_H_
 
 #include "platform.h"
 
@@ -36,4 +36,4 @@ class NetAddress {
 };
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_NET_ADDRESS_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_NET_ADDRESS_H_

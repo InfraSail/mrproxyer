@@ -7,12 +7,12 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_TCPEVENT_H_
-#define MRPROXYER_SRC_NETLIB_TCPEVENT_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_
 
+#include "../util/../util/log.h"
 #include "io_buf.h"
 #include "io_event.h"
-#include "log.h"
 #include "net_address.h"
 #include "netlib.h"
 #include "socket.h"
@@ -22,7 +22,7 @@ namespace netlib {
 class IoWatcher;
 
 // one tcp connection
-class TcpEvent : NonCopyableMovable,
+class TcpEvent : util::NonCopyableMovable,
                  public std::enable_shared_from_this<TcpEvent> {
  public:
   //  using TcpEventPrt = std::shared_ptr<TcpEvent>;
@@ -85,4 +85,4 @@ class TcpEvent : NonCopyableMovable,
 };
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_TCPEVENT_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_TCPEVENT_H_

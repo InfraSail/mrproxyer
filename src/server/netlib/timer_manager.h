@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_TIMERMANAGER_H_
-#define MRPROXYER_SRC_NETLIB_TIMERMANAGER_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_TIMERMANAGER_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_TIMERMANAGER_H_
 
 #include "netlib.h"
 #include "timepoint.h"
@@ -31,4 +31,4 @@ class TimerManager {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_TIMERMANAGER_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_TIMERMANAGER_H_

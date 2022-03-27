@@ -9,8 +9,8 @@
 
 #include "poll.h"
 
+#include "../util/log.h"
 #include "io_event.h"
-#include "log.h"
 #include "timepoint.h"
 
 using namespace netlib;

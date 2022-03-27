@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_IO_LOOP_H_
-#define MRPROXYER_SRC_NETLIB_IO_LOOP_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_
 
 #include "io_event.h"
 #include "io_watcher.h"
@@ -19,7 +19,7 @@
 
 namespace netlib {
 
-class IoLoop : public NonCopyableMovable {
+class IoLoop : public util::NonCopyableMovable {
  public:
   using TimerTask = std::function<void()>;
   IoLoop();
@@ -46,4 +46,4 @@ class IoLoop : public NonCopyableMovable {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_IO_LOOP_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_IO_LOOP_H_

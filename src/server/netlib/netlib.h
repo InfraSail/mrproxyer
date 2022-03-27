@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_NETLIB_H_
-#define MRPROXYER_SRC_NETLIB_NETLIB_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_NETLIB_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_NETLIB_H_
 // typedef and callbacks
 #include <functional>
 #include <memory>
@@ -54,4 +54,4 @@ enum {
 
 }  // namespace netlib
 
-#endif  // MRPROXYER_SRC_NETLIB_NETLIB_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_NETLIB_H_

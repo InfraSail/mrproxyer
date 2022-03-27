@@ -7,8 +7,8 @@
  *
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_TIMEPOINT_H_
-#define MRPROXYER_SRC_NETLIB_TIMEPOINT_H_
+#ifndef MRPROXYER_SRC_SERVER_NETLIB_TIMEPOINT_H_
+#define MRPROXYER_SRC_SERVER_NETLIB_TIMEPOINT_H_
 
 #include "platform.h"
 
@@ -45,4 +45,4 @@ class TimePoint {
 };
 
 }  // namespace netlib
-#endif  // MRPROXYER_SRC_NETLIB_TIMEPOINT_H_
+#endif  // MRPROXYER_SRC_SERVER_NETLIB_TIMEPOINT_H_

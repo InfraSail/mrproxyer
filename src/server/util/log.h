@@ -7,8 +7,8 @@
  * Now `log.c` has been renamed as `log.cc` by us.
  */
 
-#ifndef MRPROXYER_SRC_NETLIB_LOG_H_
-#define MRPROXYER_SRC_NETLIB_LOG_H_
+#ifndef MRPROXYER_SRC_SERVER_UTIL_LOG_H_
+#define MRPROXYER_SRC_SERVER_UTIL_LOG_H_
 
 #include <stdarg.h>
 #include <stdbool.h>
@@ -49,4 +49,4 @@ int log_add_fp(FILE* fp, int level);
 
 void log_log(int level, const char* file, int line, const char* fmt, ...);
 
-#endif  // MRPROXYER_SRC_NETLIB_LOG_H_
+#endif  // MRPROXYER_SRC_SERVER_UTIL_LOG_H_
